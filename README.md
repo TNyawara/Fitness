@@ -76,8 +76,11 @@ input[type=submit]:hover {
   </div>
   <div class="row">
     <div class="column">
-      <img src="workout1.jpg"style="width:100%">
+     
+       <!--<img src="workout1.jpg"style="width:100%">-->
+      <img src="https://images.askmen.com/1080x540/2018/03/08-044252-the_date_night_workout.jpg" style="width:100%" />
     </div>
+    
     <div class="column">
       <form action="/action_page.php">
         <label for="fname">First Name</label>
