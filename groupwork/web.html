@@ -220,7 +220,34 @@
 					
 						</div>
 						<div class="sim" id="inthird">
-					
+							<section>
+  <img class="skillSlides" src="download.jpg" style="width:100%">
+  <img class="skillSlides" src="images.jpg" style="width:100%">
+  <img class="skillSlides" src="yoga.jpg" style="width:100%">
+</section>
+<!-- Hobbies Description -->
+<section class="skills3-container skills3-center skills3-content" style="max-width:600px">
+  
+  <p class="w3-opacity"><i></i></p>
+</section>
+<script>
+// Automatic Slideshow - change image every 2 seconds
+var myIndex = 0;
+carouse2();
+
+function carouse2() {
+    var i;
+    var x = document.getElementsByClassName("skillSlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carouse2, 2000);
+}
+</script>
+
 						</div>
 					</div>
 					<div id="right">
